@@ -1,4 +1,4 @@
-
+import {GoGlobe} from "react-icons/go"
 const Navbar = () => {
     return (
         <>
@@ -16,7 +16,7 @@ const Navbar = () => {
                     </div>
                 </div>
                 <div className="navbar-center">
-                    <a className="btn btn-ghost normal-case text-xl">my travel journal.</a>
+                    <a className="btn btn-ghost normal-case text-xl"> <GoGlobe />my travel journal.</a>
                 </div>
                 <div className="navbar-end">
                     <button className="btn btn-ghost btn-circle">
